@@ -6,7 +6,7 @@ tagline = ##f
 << %% start of parallel parts in score
 \new Staff="P1 1"
 << %% start of parallel voices in staff
-\set Staff.instrumentName = \markup \abs-fontsize #12.34 \center-column { \concat { "Part 1" }  } \new Voice {
+\new Voice {
 \numericTimeSignature \time 4/4
 s\breve 
 \bar "|"
